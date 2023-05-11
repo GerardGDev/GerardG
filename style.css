@@ -1,0 +1,241 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    /*background-color: #efeefe; */
+    background-color:#202022;
+    line-height: 200% ;
+}
+
+*{
+
+    color:#f4f7ff;
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.foto{
+    width: 50px;
+}
+
+header{
+    justify-content:  space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 3px 5px 5px blue;
+}
+
+header h2{
+    text-align: center;
+}
+
+header h3{
+    text-align: center;
+}
+
+#Sobremi{
+    padding-top: 60px;
+    margin-top: -60px;
+    display: inline-grid;
+    vertical-align: top;
+}
+#Habilidades{
+    padding-top: 120px;
+    margin-top: -80px;
+    display: inline-grid;
+    vertical-align: top;
+}
+#Portfolio{
+    padding-top: 120px;
+    margin-top: -80px;
+    display: inline-grid;
+    vertical-align: top;
+}
+
+
+.Inicio{
+    padding: 350px 0;
+    text-align: center;
+    width: 10000 px;
+    margin: 0 auto;
+    background-image: url(img/screenshot6.png);
+    background-position-x: -35px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 50px;
+    background-color: #131314;
+    box-shadow: 2px 2px 12px rgb(red, green, blue);
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    /* clip-path: circle(50% at top left);
+    transition-property: clip-path;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: linear; */
+}
+
+
+.nav_links li a:hover {
+    color: #0088a9;
+    transition: all 0.3s ease 0s;
+
+
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,1);
+    box-shadow: 0 0.1rem 0.4rem rgba(12, 227, 255, 0.74);
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+p{
+    text-align:justify;
+}
+
+.img{
+    text-align: center;
+}
+
+
+section article {
+  /*  transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    */
+}
+
+section h2{
+    text-align: center;
+}
+
+section img{
+    padding-right: 20px;
+}
+
+
+
+section article:hover {
+  /*  box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3); */
+}
+
+
+section  h2, section  p{
+    margin: 2 rem;
+}
+
+
+section .TitulosHabilidades{
+    font-size: 1.7rem;
+    text-align: center;
+    text-shadow: 3px 5px 5px rgb(143, 51, 135);
+}
+
+section .EmpathyCode{
+    font-size: 1.7rem;
+    text-align: center;
+    text-shadow: 3px 5px 5px rgb(143, 51, 135);
+}
+
+section .Shipgrave{
+    font-size: 1.7rem;
+    text-align: center;
+    text-shadow: 3px 5px 5px rgb(143, 51, 135);
+}
+.subtitulos{
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 3px 5px 5px blue;
+}
+
+.left {
+    float: left;
+}
+
+section .Shipgrave{
+    padding-top: 150px;
+}
+
+section iframe{
+    text-align: center;
+}
+
+
+footer {
+    background-color: #131314;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section{
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    transition: color 0,3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue; 
+}
+
+td {
+    text-align: center;
+}
+
+
+
+
+
